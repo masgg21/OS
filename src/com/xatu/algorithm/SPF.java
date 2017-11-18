@@ -5,7 +5,7 @@ import com.xatu.emity.ProcessModel;
 import com.xatu.emity.ProcessSPFModel;
 
 /**
- * 短进程优先
+ * 小作业优先
  * Created by Naga on 2015/11/19.
  * Blog : http://blog.csdn.net/lemon_tree12138
  */

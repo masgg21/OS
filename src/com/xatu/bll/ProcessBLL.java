@@ -48,27 +48,4 @@ public class ProcessBLL {
 
         return true;
     }
-
-    /**
-     * 判断一个进程是否已经到达
-     * @param process
-     *          进程
-     * @param currentTime
-     *          当前时间
-     * @return
-     *          是否到达
-     */
-    public static boolean isProcessComing(ProcessModel process, long currentTime) {
-
-
-        if (process instanceof ProcessFCFSModel) {
-            return ((ProcessFCFSModel)process).getComingTime() <= currentTime;
-        }
-
-        if (process instanceof ProcessSPFModel) {
-            return ((ProcessSPFModel)process).getComingTime() <= currentTime;
-        }
-
-        return false;
-    }
 }

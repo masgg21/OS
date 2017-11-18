@@ -83,7 +83,11 @@ public class StringTools extends Tools {
         
         return false;
     }
-    
+    /**
+     * ×Ö·û´®¸ñÊ½»¯
+     * @param number
+     * @return
+     */
     public static String format(double number) {
         return (String.format("%.2f", number));
     }
